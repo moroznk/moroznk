@@ -9,4 +9,4 @@ services:
 
   builder:
     <<: *base-service
-    command: jekyll build
+    command: chmod -R 777 /srv/jekyll && jekyll build
