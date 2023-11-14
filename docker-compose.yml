@@ -1,0 +1,12 @@
+services:
+  site: &base-service
+    build: .
+    volumes:
+      - ./:/srv/jekyll/
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+
+  builder:
+    <<: *base-service
+    command: jekyll build
