@@ -18,7 +18,8 @@ email: nm007@mail.ru
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Оффициальный сайт ИП "Мороз Н.К."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://moroznk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "/moroznk.github.io"
 twitter_username: 
 github_username: 
 
