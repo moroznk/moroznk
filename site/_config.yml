@@ -19,7 +19,7 @@ email: nm007@mail.ru
 #   Оффициальный сайт ИП "Мороз Н.К."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://moroznk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-domain: "/moroznk.github.io"
+domain: "moroznk.github.io"
 twitter_username: 
 github_username: 
 
