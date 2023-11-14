@@ -11,13 +11,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Build
-        run: sudo ./build.sh
+    #   - name: Build
+        # run: sudo ./build.sh
+        # run: sudo ./build.sh
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: site/_site/
+          publish_dir: site/
           force_orphan: true
