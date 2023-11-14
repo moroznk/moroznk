@@ -6,7 +6,10 @@ services:
     ports:
       - "4000:4000"
       - "35729:35729"
+    environment:
+      JEKYLL_UID: 1001
+      JEKYLL_GID: 1001
 
   builder:
     <<: *base-service
-    command: chmod -R 777 /srv/jekyll/site && jekyll build && ls _site
+    command: jekyll build && ls _site
