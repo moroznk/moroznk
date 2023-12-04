@@ -8,7 +8,7 @@ layout: default
   </header>
 
   {% if page.photo %}
-  <img src="{{ page.photo }}" alt="{{ page.short_title }}">
+  <img src="{{ page.photo | relative_url }}" alt="{{ page.short_title }}">
   {% endif %}
 
   <div class="post-content e-content" itemprop="articleBody">
