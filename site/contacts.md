@@ -5,3 +5,6 @@ permalink: /contacts
 order: 3
 ---
 
+<ul>
+{%- include contacts.html -%}
+</ul>

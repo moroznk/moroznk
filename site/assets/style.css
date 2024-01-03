@@ -1,3 +1,8 @@
+.tableimage {
+  width:50%;
+  min-width:30%;
+}
+
 .noborder {
   border: hidden; }
 

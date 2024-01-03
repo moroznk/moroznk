@@ -4,14 +4,14 @@
         {% assign sorted_items = site.items | sort:"order" %}
         {%- for item in sorted_items -%}
         <tr class="noborder">
-            <td class="noborder">
+            <td class="noborder tableimage">
                 <img src="{{ item.photo | relative_url}}" alt="{{ item.short_title }}">
             <td class="noborder">
-                <h3>
+                <h4>
                     <a class="item-link" href="{{ item.url | relative_url }}">
                         {{ item.short_title }}<br>{{ item.title | escape }}
                     </a>
-                </h3>
+                </h4>
             </td>
         </tr>
         {%- endfor -%}
