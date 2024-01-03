@@ -26,6 +26,7 @@ cctr
 .jekyll-cache/
 .jekyll-metadata
 .asset-cache/
+/site/_site/*
 
 # --
 # Rails
